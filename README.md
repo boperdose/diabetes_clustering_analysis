@@ -110,6 +110,16 @@ diabetes_clustering_analysis/
 
 Los Silhouette Scores bajos son esperables en datos administrativos hospitalarios con alta dimensionalidad y variables mayoritariamente categoricas.
 
+## Graficos
+
+| Grafico | Descripcion |
+|---------|-------------|
+| ![PCA 2D](plots/pca_2d.png) | Proyeccion PCA 2D coloreada por `readmitted` |
+| ![K-Means PCA](plots/kmeans_pca_2d.png) | Clusters K-Means (k=3) en espacio PCA 2D |
+| ![GMM PCA](plots/gmm_pca_2d.png) | Clusters GMM en espacio PCA 2D |
+| ![Comparacion metricas](plots/comparison_all_metrics.png) | Comparacion de Silhouette, Davies-Bouldin y Calinski-Harabasz |
+| ![K-Means perfil](plots/kmeans_profile.png) | Perfil de clusters K-Means (medias estandarizadas) |
+
 ## Dependencias
 
 ```bash
